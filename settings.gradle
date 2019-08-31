@@ -1,0 +1,9 @@
+rootProject.name = 'digital-wallet'
+include 'digital-btc-wallet'
+include 'digital-eos-wallet'
+include 'digital-eth-wallet'
+include 'digital-trx-wallet'
+include 'digital-usdt-wallet'
+include 'digital-wicc-wallet'
+include 'digital-commons'
+
