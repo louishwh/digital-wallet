@@ -3,6 +3,23 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/digital-wallet.iml" filepath="$PROJECT_DIR$/digital-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.test.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-btc-wallet/digital-wallet.digital-btc-wallet.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.main.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.test.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-commons/digital-wallet.digital-commons.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.test.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-eos-wallet/digital-wallet.digital-eos-wallet.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-eth-wallet/digital-wallet.digital-eth-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-eth-wallet/digital-wallet.digital-eth-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-trx-wallet/digital-wallet.digital-trx-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-trx-wallet/digital-wallet.digital-trx-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.test.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-usdt-wallet/digital-wallet.digital-usdt-wallet.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.test.iml" filepath="$PROJECT_DIR$/.idea/modules/digital-wicc-wallet/digital-wallet.digital-wicc-wallet.test.iml" />
     </modules>
   </component>
 </project>

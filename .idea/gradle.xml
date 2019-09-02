@@ -5,6 +5,18 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/digital-btc-wallet" />
+            <option value="$PROJECT_DIR$/digital-commons" />
+            <option value="$PROJECT_DIR$/digital-eos-wallet" />
+            <option value="$PROJECT_DIR$/digital-eth-wallet" />
+            <option value="$PROJECT_DIR$/digital-trx-wallet" />
+            <option value="$PROJECT_DIR$/digital-usdt-wallet" />
+            <option value="$PROJECT_DIR$/digital-wicc-wallet" />
+          </set>
+        </option>
         <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>

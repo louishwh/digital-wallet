@@ -1,33 +1,57 @@
-buildscript {
-    ext.kotlin_version = '1.2.60'
+
+allprojects {
+    ext {
+        kotlinVersion = '1.2.40'
+        version = '0.0.1-SNAPSHOT'
+        slf4jVersion = '1.7.24'
+    }
+
     repositories {
+        maven { url "http://nexus.wayki.cn/content/groups/public" }
+        jcenter()
         mavenCentral()
     }
+}
+
+subprojects {
+
+    version "$ext.version"
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'kotlin'
+    
     dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+        compile "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+        compile 'org.bitcoinj:bitcoinj-core:0.15.2'
+        compile "org.slf4j:slf4j-api:$slf4jVersion"
+        compile "org.apache.cassandra:cassandra-all:0.8.1"
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "1.8"
     }
 
 }
 
-version '1.0-SNAPSHOT'
+buildscript {
+    ext.kotlinVersion = '1.2.40'
+    repositories {
+        maven { url "http://nexus.wayki.cn/content/groups/public" }
+        mavenCentral()
+    }
 
-apply plugin: 'java-library'
-apply plugin: "kotlin"
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    }
 
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-}
-
-compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
-}
-compileTestKotlin {
-    kotlinOptions.jvmTarget = "1.8"
 }
