@@ -118,7 +118,7 @@ class WalletManager {
 
         /** 私钥 --> 地址 **/
         fun transformPrivateKeyIntoAddress(privateKey: String, netType: NetType, password: String=""): String {
-            if (!isValidatePrivateKey(privateKey)) {
+            if (!isValidatePrivateKey(privateKey, netType)) {
                 return transformPrivateKeyIntoWallet(privateKey, netType, password).address
             }
             return ""
@@ -126,7 +126,7 @@ class WalletManager {
 
         /** 私钥 --> 核心钱包 **/
         fun transformPrivateKeyIntoWallet(privateKey: String, netType: NetType, password: String=""): Wallet {
-            if (isValidatePrivateKey(privateKey)) {
+            if (isValidatePrivateKey(privateKey, netType)) {
                 val eCKey = DumpedPrivateKey.fromBase58(netType.netParams, privateKey).key
                 val address = LegacyAddress.fromPubKeyHash(netType.netParams, eCKey.pubKeyHash).toString()
                 val core = WalletCore(eCKey.publicKeyAsHex, privateKey, netType, password)
