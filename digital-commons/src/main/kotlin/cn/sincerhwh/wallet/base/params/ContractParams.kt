@@ -8,5 +8,5 @@ package cn.sincerhwh.wallet.base.params
  * @modified By：
  * @version    ：1.0
  */
-class ContractParams {
+open class ContractParams {
 }

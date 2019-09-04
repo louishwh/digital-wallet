@@ -2,337 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368b08d8-1d41-48ef-9f91-c1ae372b243d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/MnemonicManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-btc-wallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-btc-wallet/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/NativeSecp256k1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/NativeSecp256k1Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/Secp256k1Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/crawler/PeerSeedProtos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/paymentchannel/Protos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoin/protocols/payments/Protos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/AbstractBlockChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/AddressFormatException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/AddressMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/AlertMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Base58.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Bech32.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/BitcoinSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Block.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/BlockChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/BlockLocator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/BloomFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/CheckpointManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/ChildMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Coin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Context.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/DummySerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/DumpedPrivateKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/ECKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/EmptyMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/FilteredBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/FullPrunedBlockChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/GetAddrMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/GetBlocksMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/GetDataMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/GetHeadersMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/GetUTXOsMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/HeadersMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/InsufficientMoneyException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/InventoryItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/InventoryMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/LegacyAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/ListMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/MemoryPoolMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/MessageSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Monetary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/NetworkParameters.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/NotFoundMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PartialMerkleTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Peer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PeerAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PeerException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PeerFilterProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PeerGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PeerSocketHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Ping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Pong.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PrefixedChecksummedBytes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/ProtocolException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/PrunedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/RejectMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/RejectedTransactionException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/SegwitAddress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/SendHeadersMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Sha256Hash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/StoredBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/StoredUndoableBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionBroadcast.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionBroadcaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionConfidence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionOutPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionOutputChanges.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TransactionWitness.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/TxConfidenceTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UTXO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UTXOProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UTXOProviderException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UTXOsMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UnknownMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/UnsafeByteArrayOutputStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/VarInt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/VerificationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/VersionAck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/VersionMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/AbstractBlockChainListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/AbstractPeerConnectionEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/AbstractPeerDataEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/AbstractPeerEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/BlockChainListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/BlocksDownloadedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/ChainDownloadStartedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/DownloadProgressTracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/GetDataEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/NewBestBlockListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/OnTransactionBroadcastListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PeerConnectedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PeerConnectionEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PeerDataEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PeerDisconnectedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PeerDiscoveredEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/PreMessageReceivedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/ReorganizeListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/TransactionConfidenceEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/listeners/TransactionReceivedInBlockListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/core/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/BIP38PrivateKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/ChildNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/DRMWorkaround.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/DeterministicHierarchy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/DeterministicKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/EncryptableItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/EncryptedData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/HDDerivationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/HDUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/KeyCrypter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/KeyCrypterException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/KeyCrypterScrypt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/LazyECPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/LinuxSecureRandom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/MnemonicCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/MnemonicException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/PBKDF2SHA512.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/TransactionSignature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/TrustStoreLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/X509Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/crypto/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeBlockChainListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeFutureCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeKeyChainEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativePaymentChannelHandlerFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativePaymentChannelServerConnectionEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativePeerEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeScriptsChangeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeTransactionConfidenceEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeTransactionConfidenceListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeWalletChangeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeWalletCoinsReceivedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeWalletCoinsSentEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/jni/NativeWalletReorganizeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/kits/WalletAppKit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/kits/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/AbstractTimeoutHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/BlockingClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/BlockingClientManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/ClientConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/ConnectionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/FilterMerger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/MessageWriteTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/NioClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/NioClientManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/NioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/ProtobufConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/StreamConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/StreamConnectionFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/DnsDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/HttpDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/MultiplexingDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/PeerDiscovery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/PeerDiscoveryException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/SeedPeers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/discovery/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/net/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/AbstractBitcoinNetParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/MainNetParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/Networks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/RegTestParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/TestNet3Params.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/UnitTestParams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/params/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/ClientState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/IPaymentChannelClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelClientConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelClientState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelCloseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelServerListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelServerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelV1ClientState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelV1ServerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelV2ClientState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentChannelV2ServerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/PaymentIncrementAck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/ServerConnectionEventHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/ServerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/Simple channels protocol.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/StateMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/StoredPaymentChannelClientStates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/StoredPaymentChannelServerStates.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/StoredServerChannel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/ValueOutOfRangeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/channels/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/payments/PaymentProtocol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/payments/PaymentProtocolException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/payments/PaymentSession.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/protocols/payments/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/Script.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptChunk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptOpCodes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/ScriptPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/script/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/signers/CustomTransactionSigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/signers/LocalTransactionSigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/signers/MissingSigResolutionSigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/signers/TransactionSigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/signers/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/BlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/BlockStoreException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/ChainFileLockedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/DatabaseFullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/FullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/H2FullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/LevelDBBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/LevelDBFullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/MemoryBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/MemoryFullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/MySQLFullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/PostgresFullPrunedBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/SPVBlockStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/store/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/uri/BitcoinURI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/uri/BitcoinURIParseException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/uri/OptionalFieldValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/uri/RequiredFieldValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/uri/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BaseTaggableObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BlockFileLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BriefLogFormatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BtcAutoFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BtcFixedFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/BtcFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/ContextPropagatingThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/DaemonThreadFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/ExchangeRate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/ExponentialBackoff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/Fiat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/ListenerRegistration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/MonetaryFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/TaggableObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/Threading.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/VersionTally.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/utils/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/AllRandomKeysRotating.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/AllowUnconfirmedCoinSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/BasicKeyChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/CoinSelection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/CoinSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DecryptingKeyBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DefaultCoinSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DefaultKeyChainFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DefaultRiskAnalysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DeterministicKeyChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DeterministicSeed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DeterministicUpgradeRequiredException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/DeterministicUpgradeRequiresPassword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/EncryptableKeyChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/FilteringCoinSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/KeyBag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/KeyChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/KeyChainFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/KeyChainGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/KeyTimeCoinSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/MarriedKeyChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/Protos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/RedeemData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/RiskAnalysis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/SendRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/UnreadableWalletException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/Wallet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/WalletExtension.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/WalletFiles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/WalletProtobufSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/WalletTransaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/AbstractKeyChainEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/KeyChainEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/ScriptsChangeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/WalletChangeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/WalletCoinsReceivedEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/WalletCoinsSentEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/listeners/WalletReorganizeEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/java/org/bitcoinj/wallet/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/jniLibs/libsecp256k1.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/LegacyWalletInterface.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/HashWriter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/WalletAddress.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/WaykiNetworkType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/WaykiTxType.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/BaseSignTxParams.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiCommonTxParams.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiContractTxParams.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiDelegateTxParams.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiMainNetParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiMainNetParams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiRegisterAccountTxParams.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/params/WaykiTestNetParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTestNetParams.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/base/types/VarIntExt.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/impl/LegacyWallet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/BIP44Util.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/ContractUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/Messages.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/MnemonicUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/NumericUtil.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/com/waykichain/wallet/util/TokenException.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/resources/org/bitcoinj/crypto/cacerts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/resources/org/bitcoinj/crypto/mnemonic/wordlist/english.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/test/kotlin/com/waykichain/wallet/RunWallet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-commons/src/test/kotlin/com/waykichain/wallet/TestWallet.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-eos-wallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-eos-wallet/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-eth-wallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-eth-wallet/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-trx-wallet/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-usdt-wallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-usdt-wallet/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-wallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/digital-wallet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital-wicc-wallet/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/digital-wicc-wallet/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/ContractParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/ContractParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/TransferParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/TransferParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiContractParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiContractParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTransferParams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTransferParams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -384,22 +59,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/ByteArrayExtension.kt">
+        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="807">
+              <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+              <folding>
+                <element signature="e#34#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/LegacyAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="807">
+              <caret line="166" column="15" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/PrefixedChecksummedBytes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
-                <element signature="e#34#284#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1902#1903#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/DumpedPrivateKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="712">
+              <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+              <folding>
+                <element signature="e#4022#4023#0" expanded="true" />
+                <element signature="e#4110#4111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/wallet/DeterministicSeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/ECKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+              <folding>
+                <element signature="e#11662#11663#0" expanded="true" />
+                <element signature="e#11711#11712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/BIP44Util.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/TransferParams.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -407,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/MnemonicManager.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="538">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="e#34#100#0" expanded="true" />
               </folding>
@@ -417,64 +158,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/LegacyAddress.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/crypto/MnemonicCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/PrefixedChecksummedBytes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiMainNetParams.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTestNetParams.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/digital-wicc-wallet/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            <state relative-caret-position="472">
+              <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -512,6 +199,10 @@
         <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WaykiChainNetType.kt" />
         <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTestNetParams.kt" />
         <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/MnemonicManager.kt" />
+        <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/ContractParams.kt" />
+        <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiContractParams.kt" />
+        <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTransferParams.kt" />
+        <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/TransferParams.kt" />
         <option value="$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt" />
       </list>
     </option>
@@ -526,8 +217,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="906" />
-    <option name="width" value="1654" />
+    <option name="x" value="1131" />
+    <option name="width" value="1429" />
     <option name="height" value="1440" />
   </component>
   <component name="ProjectView">
@@ -646,7 +337,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567426792983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567589821909" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -657,6 +348,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="cn.sincerhwh.wallet.util" />
       <recent name="cn.sincerhwh.wallet.base.params" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -746,15 +438,15 @@
       <updated>1567242337358</updated>
       <workItem from="1567242338649" duration="1297000" />
       <workItem from="1567387108137" duration="6992000" />
-      <workItem from="1567418121908" duration="5777000" />
+      <workItem from="1567418121908" duration="16105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14066000" />
+    <option name="totallyTimeSpent" value="24394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="906" y="0" width="1654" height="1440" extended-state="6" />
+    <frame x="1131" y="0" width="1429" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -763,19 +455,19 @@
       <window_info id="Web" order="3" side_tool="true" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.21401985" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.16438356" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="0" weight="0.2620438" />
       <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.20510949" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.20510949" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3287071" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3277372" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.02189781" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.14014599" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -907,24 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/PrefixedChecksummedBytes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/LegacyAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -959,23 +637,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiTransferParams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/ContractParams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/WaykiContractParams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/base/params/TransferParams.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/crypto/MnemonicCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="239" column="16" selection-start-line="239" selection-start-column="16" selection-end-line="239" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/MnemonicManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="538">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="e#34#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/BIP44Util.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/ECKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="248" column="24" selection-start-line="248" selection-start-column="24" selection-end-line="248" selection-end-column="24" />
+          <folding>
+            <element signature="e#11662#11663#0" expanded="true" />
+            <element signature="e#11711#11712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/wallet/DeterministicSeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/DumpedPrivateKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+          <folding>
+            <element signature="e#4022#4023#0" expanded="true" />
+            <element signature="e#4110#4111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/PrefixedChecksummedBytes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/digital-commons/src/main/kotlin/cn/sincerhwh/wallet/util/WalletManager.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="807">
+          <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
           <folding>
-            <element signature="e#34#284#0" expanded="true" />
+            <element signature="e#34#348#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitcoinj/bitcoinj-core/0.15.2/703291fe0b0ad6d2c58e6fa3c4828cc1f3d37902/bitcoinj-core-0.15.2-sources.jar!/org/bitcoinj/core/LegacyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="166" column="15" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="15" />
         </state>
       </provider>
     </entry>
